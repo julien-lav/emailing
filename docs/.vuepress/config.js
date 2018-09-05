@@ -1,22 +1,30 @@
 module.exports = {
-    title: 'Scotch VuePress',
+    title: 'Usefull tools',
     description: "A demo documentation using VuePress",
     themeConfig:{
         nav: [
+            { text: 'EMAILING', link: '/email/' },
             { text: 'COUNTER', link: '/counter/' },
             { text: 'GUIDE', link: '/guide/' },
         ],
-        sidebar: [
+        sidebar: [  
+            {
+              title: 'Email',
+              collapsable: true,
+              children: [
+                  '/email/'
+              ]
+            },
             {
               title: 'Counter',
-              collapsable: false,
+              collapsable: true,
               children: [
                 '/counter/counter-app'
               ]
             },
             {
               title: 'API Guide',
-              collapsable: false,
+              collapsable: true,
               children: [
                   '/guide/guide',
                   '/guide/api'
