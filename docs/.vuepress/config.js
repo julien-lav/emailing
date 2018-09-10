@@ -16,20 +16,21 @@ module.exports = {
               ]
             },
             {
-              title: 'Counter',
-              collapsable: true,
-              children: [
-                '/counter/counter-app'
-              ]
-            },
-            {
               title: 'Git',
               collapsable: true,
               children: [
                   '/git/git',
                   '/git/api'
               ]
+            },
+            {
+              title: 'Counter',
+              collapsable: true,
+              children: [
+                '/counter/counter-app'
+              ]
             }
+            
           ]
     }
 }
