@@ -5,7 +5,7 @@ module.exports = {
         nav: [
             { text: 'EMAILING', link: '/email/' },
             { text: 'COUNTER', link: '/counter/' },
-            { text: 'GUIDE', link: '/guide/' },
+            { text: 'GIT', link: '/git/' },
         ],
         sidebar: [  
             {
@@ -23,11 +23,11 @@ module.exports = {
               ]
             },
             {
-              title: 'API Guide',
+              title: 'Git',
               collapsable: true,
               children: [
-                  '/guide/guide',
-                  '/guide/api'
+                  '/git/git',
+                  '/git/api'
               ]
             }
           ]

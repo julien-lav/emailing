@@ -9,4 +9,5 @@ features:
   details: This entire doc was basically made with VuePress which parsed markdown files and corresponding assets using webpack.
 footer: Developed using VuePress
 ---
+
 <my-header></my-header>
