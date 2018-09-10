@@ -4,8 +4,8 @@ module.exports = {
     themeConfig:{
         nav: [
             { text: 'EMAILING', link: '/email/' },
-            { text: 'COUNTER', link: '/counter/' },
             { text: 'GIT', link: '/git/' },
+            { text: 'COUNTER', link: '/counter/' },
         ],
         sidebar: [  
             {

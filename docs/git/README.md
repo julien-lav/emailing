@@ -2,7 +2,7 @@
 title: Git
 ---
 
-# GIT
+# GIT REBASE
 
 
 ```txt
@@ -53,3 +53,36 @@ A---B---E---H---I-------J-------K ← master
 ```
 
 >https://git-scm.com/docs/git-rebase
+
+
+# GIT FETCH / GIT PULL 
+
+- Download objects and refs from another repository
+
+Les deux commandes permettent de mettre à jour un répertoire local avec les données d'un repository distant. Elles n'ont cependant pas le même fonctionnement.
+
+Récupère les données distantes mais sans les fusionner avec la branche locale. Pour la mettre a jour il faut utiliser git merge.
+
+Ainsi git fetch permet de garder le répertoire à jour mais de contrôler le moment où l'on souhaite fusionner les données.
+
+
+# GIT DIFF 
+
+```sh
+ git diff <source_branch> <target_branch>
+```
+
+# GIT GREP
+
+git grep "mon_a_trouver"
+
+# GITK
+
+gitk =>interface graphique
+
+# GIT ARCHIVE
+
+git archive --format=tar master
+
+
+# GIT PRUNE / GOT FSCK
