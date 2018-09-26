@@ -25,13 +25,6 @@ module.exports = {
               ]
             },
             {
-              title: 'CRM',
-              collapsable: true,
-              children: [
-                  '/CRM/'
-              ]
-            },
-            {
               title: 'Counter',
               collapsable: true,
               children: [
