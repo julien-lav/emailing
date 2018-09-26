@@ -4,6 +4,7 @@ module.exports = {
     themeConfig:{
         nav: [
             { text: 'EMAILING', link: '/email/' },
+            { text: 'CRM', link: '/crm/' },
             { text: 'GIT', link: '/git/' },
             { text: 'COUNTER', link: '/counter/' },
         ],
@@ -21,6 +22,13 @@ module.exports = {
               children: [
                   '/git/git',
                   '/git/api'
+              ]
+            },
+            {
+              title: 'CRM',
+              collapsable: true,
+              children: [
+                  '/CRM/'
               ]
             },
             {

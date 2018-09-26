@@ -113,8 +113,28 @@ git archive --format=tar master
 
 --
 
-git blame - Show what revision and author last modified each line of a file
-git bisect - Use binary search to find the commit that introduced a bug
+# GIT WORKTREE
+
+--
+
+# GIT SUBMODULE
+
+--
+
+git blame - Show what revision and author last modified each line of a file <br />
+git bisect - Use binary search to find the commit that introduced a bug <br />
 git show - Show various types of objects
 
-# GIT WORKTREE
+# Pretty git log
+
+git lg
+
+[alias]
+        lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C
+(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+
+lg is an alias for pretty log
+
+you may configure it with this command line :
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
